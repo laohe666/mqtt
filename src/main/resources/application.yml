@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: MQTT-SPRINGBOOT
+
+mqtt:
+  username: admin
+  password: admin
+  host-url: tcp://127.0.0.1:1883
+  clientId: mqClient
+  default-topic: mqttTest #默认主题
+  timeout: 300
+  keepalive: 300
